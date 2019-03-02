@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MenuApp">
+	<head>
+		<meta charset="utf-8">
+		<title>MenuApp</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+		<link rel="stylesheet" href="css/style.css" media="screen">
+	</head>
+	<body>
+
+		<div class="container">
+			<h1>The Kitten Kitchen ฅ^•ﻌ•^ฅ</h1>
+			<icon-loader></icon-loader>
+			<ui-view></ui-view>
+		</div>
+
+		<!-- Libraries -->
+		<script src="js/libs/angular.min.js" charset="utf-8"></script>
+		<script src="js/libs/angular-ui-router.min.js" charset="utf-8"></script>
+
+		<!-- Modules -->
+		<script src="js/app/modules/data.module.js" charset="utf-8"></script>
+		<script src="js/app/modules/menuapp.module.js" charset="utf-8"></script>
+		<script src="js/app/modules/loader.module.js" charset="utf-8"></script>
+
+		<!-- Components -->
+		<script src="js/app/components/categories.component.js" charset="utf-8"></script>
+		<script src="js/app/components/items.component.js" charset="utf-8"></script>
+		<script src="js/app/components/loader.component.js" charset="utf-8"></script>
+
+		<!-- Controllers -->
+		<script src="js/app/controllers/categories.controller.js" charset="utf-8"></script>
+		<script src="js/app/controllers/items.controller.js" charset="utf-8"></script>
+
+		<!-- Services -->
+		<script src="js/app/menudata.service.js" charset="utf-8"></script>
+
+		<!-- Routes -->
+		<script src="js/app/routes.js" charset="utf-8"></script>
+
+	</body>
+</html>
